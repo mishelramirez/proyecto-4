@@ -1,11 +1,69 @@
 .container {
+    margin-left: 100px;
+}
+
+.containerheader {
     display: flex;
 }
 
 .circulo {
-    border: 3px solid rgb(230, 36, 181);
-    width: 30px;
-    height: 30px;
+    border: 3px solid rgb(233, 158, 214);
+    width: 15px;
+    height: 15px;
     border-radius: 100px;
     margin-top: 50px;
+}
+
+.titlebase {
+    font-weight: 800;
+    font-size: 10px;
+    margin-top: 47px;
+    margin-bottom: 0;
+    margin-left: 15px;
+}
+
+.title {
+    color: rgb(240, 168, 168);
+    font-size: 50px;
+    font-weight: 100;
+    margin-bottom: 0;
+}
+
+.subtitle {
+    margin-top: 0;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.paragraph {
+    color: rgb(240, 168, 168);
+    font-size: 20px;
+
+}
+.formemail{
+    position: relative;
+    display: inline-block;
+    width: 600px;
+}
+.email{
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 30px;
+    height: 40px;
+    border:  1px solid rgb(240, 168, 168);
+}
+.flecha{
+    border: none;
+    background: rgb(230, 84, 181) ;
+    color: white;
+    position: absolute;
+    right: 0;
+    padding: 10px 15px;
+    top: 10px;
+    border-radius: 32px;
+    width: 100px;
+    height: 60px;
+    margin-top: -9px;
+    margin-right: -32px;
+    cursor: pointer;
 }

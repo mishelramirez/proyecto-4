@@ -1,10 +1,10 @@
 import style from "./home.css"
 
 function Header() {
-  return <div className="container">
+  return <div className="containerheader">
 
     <div className="circulo"></div>
-    <p>BASE <br />APPAREL </p>
+    <p className="titlebase">B A S E <br />A P P A R E L </p>
 
 
   </div>;
